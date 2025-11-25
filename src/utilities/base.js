@@ -1,5 +1,5 @@
 import { LitElement, css } from "https://esm.sh/lit-element";
-import { pbMixin } from "https://esm.sh/@teipublisher/pb-components/src/pb-mixin.js";
+import { pbMixin } from "./lib/pb-mixin.js";
 import { config } from "./config.js";
 
 export class UtBase extends pbMixin(LitElement) {
